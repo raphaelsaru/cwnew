@@ -1,0 +1,22 @@
+diff a/README.md b/README.md	(rejected hunks)
+@@ -1 +1,19 @@
+-"# cwnew" 
++# WhatsApp Web Clone
++
++Aplicação Next.js utilizando Tailwind CSS e componentes do Shadcn.
++Permite iniciar uma sessão no WhatsApp via EvolutionAPI exibindo o QR code para autenticação.
++
++## Uso
++
++1. Copie `.env.example` para `.env` e preencha as variáveis com os dados da EvolutionAPI.
++2. Instale as dependências:
++   ```bash
++   npm install
++   ```
++3. Rode o servidor de desenvolvimento:
++   ```bash
++   npm run dev
++   ```
++4. Acesse `http://localhost:3000` e faça login escaneando o QR code.
++
++Esta aplicação é apenas um ponto de partida para integrar recursos de IA e visualização de conversas no futuro.
